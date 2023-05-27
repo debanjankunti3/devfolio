@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.navbar-hover:hover {
+    color: rgb(15, 146, 105);
+}
+
+#nav-hover:hover {
+    color: rgb(89, 235, 89);
+}
+
+#n {
+    position: sticky;
+}
+
+/* midsection */
+#dev-info {
+    margin-top: 70px;
+}
+
+#first {
+    font-size: 50px;
+    font-weight: bolder;
+}
+
+#second {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#third {
+    font-size: 20px;
+}
+
+/* mid-socialicons */
+#fa-ss {
+    padding: 12px;
+}
+
+#fa-ss:hover {
+    color: rgb(12, 246, 168);
+    cursor: pointer;
+}
+
+/* midbutton */
+#firstbutton {
+    background-color: #f6e05e !important;
+    border-radius: 40px;
+    border-color: #f6e05e;
+    color: black;
+}
+
+#firstbutton:hover {
+    color: rgb(88, 190, 245);
+}
+
+/* mid section developer image */
+#developer-img {
+    height: 60%;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+/* services and projects text center */
+.card-body {
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1);
+}
+
+/* different style in hr */
+#hr1 {
+    border: 4px solid rgba(10, 10, 9, 0.833);
+    width: 15%;
+    transform: rotate(5deg);
+}
+
+/* h2 */
+h2 {
+    font-weight: bold;
+}
+
+/* footer */
+footer {
+    background-color: black;
+    color: white;
+}
+/* copyright */
+#copyright{
+    text-decoration: none;
+    color: white;
+}
+
+/* media query */
+@media only screen and (max-width:1000px) {
+    #first {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    #second {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    #third {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #developer-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #developer-image img {
+        width: 40%;
+
+    }
+}
